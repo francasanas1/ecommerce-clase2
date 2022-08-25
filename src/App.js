@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import CartWidget from './CartWidget';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <button>Mac</button>
       </div>
       <button id='login'>Log In</button>
-
+      <CartWidget/>
     </header>
 
   );
