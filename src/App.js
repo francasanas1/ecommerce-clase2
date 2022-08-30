@@ -1,18 +1,13 @@
 import './App.css';
 import CartWidget from './CartWidget';
+import NavBar from './NavBar';
 
 function App() {
   return (
-    <header className="nav-bar">
-      <h2>Shop</h2>
-      <div id='articulos'>
-        <button>Iphone</button>
-        <button>Ipad</button>
-        <button>Mac</button>
-      </div>
-      <button id='login'>Log In</button>
-      <CartWidget/>
-    </header>
+    <div>
+      <NavBar/>
+      <itemListContainter/>
+    </div>
 
   );
 }
