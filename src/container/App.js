@@ -1,12 +1,12 @@
 import './App.css';
-import CartWidget from './CartWidget';
 import NavBar from './NavBar';
+import ItemListContainter from './ItemListContainer';
 
 function App() {
   return (
     <div>
       <NavBar/>
-      <itemListContainter/>
+      <ItemListContainter/>
     </div>
 
   );

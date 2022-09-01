@@ -1,3 +1,4 @@
+import CartWidget from './CartWidget';
 
 function NavBar() {
     return (
@@ -9,7 +10,7 @@ function NavBar() {
                 <button>Mac</button>
             </div>
             <button id='login'>Log In</button>
-            <CartWidget />
+            <CartWidget/>
         </header>
 
     );
