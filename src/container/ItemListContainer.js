@@ -1,7 +1,9 @@
 import ItemCount from "./ItemCount";
 
 function ItemListContainter(props) {
-    <ItemCount stock={5} initial={1}/>;
+    return(
+        <ItemCount stock={5} initial={1}/>
+    )
 }
 
 // const ItemListContainter = ({greeting}) => {
